@@ -238,4 +238,4 @@ with tf.Graph().as_default():
                     copymax("{}.index".format(path))
                     copymax("{}.meta".format(path))
         time_end = datetime.datetime.now().isoformat()
-        print("running time:{}".format((time_end-time_start).hours))
+        print("ending time:{}".format((time_end).hours))
